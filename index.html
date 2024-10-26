@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="menu--close"></div>
     <header class="header">
         <div class="container">
             <div class="header__inner">
@@ -22,7 +22,18 @@
                     <img src="images/logo.svg" alt="TealuxE">
                 </a>
                 <nav class="menu">
+                    <button class="menu__btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
                     <ul class="menu__list">
+                        <li class="menu__close">
+                            <button class="menu__close-btn">
+                            <img src="images/close.svg" alt="">
+                            </button>
+                        </li>
                         <li class="menu__item">
                             <a href="#" class="menu__link">Black</a>
                         </li>
@@ -37,6 +48,36 @@
                         </li>
                         <li class="menu__item">
                             <a href="#" class="menu__link">Pu-erh</a>
+                        </li>
+                        <li class="mobile__nav">
+                            <ul class="mobile__menu">
+                                 <li class="mobile__menu__item">
+                                    <a href="#" class="mobile__menu-link">Contact Us</a>
+                                </li>
+                                 <li class="mobile__menu__item">
+                                    <a href="#" class="mobile__menu-link">Our Blog</a>
+                                </li>
+                                 <li class="mobile__menu__item">
+                                    <a href="#" class="mobile__menu-link">Shipping and Delivery</a>
+                                </li>
+                            </ul>
+                            <ul class="mobile-actions">
+                                <li class="mobile__actions__item">
+                                    <a href="#" class="mobile__actions__link">
+                                        <img src="images/card.svg" alt=""> 
+                                    </a>
+                                </li>
+                                <li class="mobile__actions__item">
+                                    <a href="#" class="mobile__actions__link">
+                                        <img src="images/user.svg" alt=""> 
+                                    </a>
+                                </li>
+                                <li class="mobile__actions__item ">
+                                    <a href="#" class="mobile__actions__link">
+                                        <img src="images/search.svg" alt=""> 
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </nav>
