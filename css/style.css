@@ -33,7 +33,13 @@ button{
 ul{
     list-style: none;
 }
-
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: "Cormorant", serif;
+    font-size: 40px;
+    font-weight: 400;
+}
 .container{
     max-width: 1240px;
     margin: 0 auto;
@@ -48,6 +54,11 @@ ul{
     align-items: center;
     padding: 30px 0;
 }
+
+
+/* .reviews__item--hide{
+    display: none;
+} */
 
 .logo{
     margin-bottom: 35px;
@@ -180,6 +191,32 @@ font-family: "Cormorant", serif;
     margin-left: 0;
 }
 
+.reviews{
+    background-color: #F7F2EA;
+    padding-bottom: 60px 0;
+}
+.reviews__list{
+    display: flex;
+    gap: 0 30px;
+    margin-right: 40px;
+    justify-content: center;
+}
+.reviews__item{
+    flex-basis: 280px;
+}
+.reviews__text{
+font-size: 16px;
+font-style: italic;
+margin-bottom: 10px;
+
+}
+.reviews__name{
+font-weight: 600;
+}
+
+
+
+
 
 
 
@@ -218,6 +255,10 @@ font-family: "Cormorant", serif;
     }
     .assortment{
         margin-bottom: 120px;
+    }
+    
+    .reviews__item:last-child{
+       display: none;
     }
 }
 @media(max-width:868px){
@@ -308,6 +349,23 @@ font-family: "Cormorant", serif;
     justify-content: center;
 
 }
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Cormorant", serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+.reviews__item:last-child{
+    display: block;
+ }
+ .reviews__list{
+    flex-wrap: wrap;
+    gap: 30px 76px;
+ }
+ .reviews__item {
+    flex-basis: 220px;
+}
 }
 
 @media(max-width:680px){
@@ -332,6 +390,16 @@ font-family: "Cormorant", serif;
   .assortment__img{
     max-width: 170px;
  }
+ .title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Cormorant", serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.reviews__item {
+    flex-basis: 150px;
+}
 }
 
 
@@ -348,6 +416,31 @@ font-family: "Cormorant", serif;
 .assortment__img{
     max-width: 130px;
  }
+ .assortment{
+    margin-bottom: 60px;
+ }
+ .title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.reviews__list{
+    gap: 30px 20px;
+ }
+ .reviews{
+    padding: 50px 0;
+ }
+ .reviews__item{
+    flex-basis: 100px;
+}
+.reviews__item{
+    max-width: 150px;
+}
+.reviews__item {
+    flex-basis: 100%;
+}
 }
 @media(max-width:360px){
   .logo{
@@ -381,5 +474,22 @@ font-family: "Cormorant", serif;
 }
 .assortment__img{
    max-width: 100px;
+}
+.assortment{
+    margin-bottom: 80px;
+ }
+ .title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Cormorant", serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.reviews__item:last-child,
+.reviews__item:first-child{
+    display: none;
+}
+.reviews__item {
+    flex-basis: 100%;
 }
 }
