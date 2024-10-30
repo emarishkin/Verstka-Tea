@@ -17,7 +17,7 @@ body{
     margin: 0;
 color: #151618;
 font-size: 20px;
-line-height: 1.5;
+line-height: normal;
 font-weight: 300px;
 /* font-family: "Cormorant", serif; */
 font-family: "Open Sans", sans-serif;
@@ -203,6 +203,7 @@ font-family: "Cormorant", serif;
 }
 .reviews__item{
     flex-basis: 280px;
+    padding-bottom: 40px;
 }
 .reviews__text{
 font-size: 16px;
@@ -214,7 +215,116 @@ margin-bottom: 10px;
 font-weight: 600;
 }
 
+.main__blog{
+    padding: 70px 0;
+}
+.main-blog__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 58px;
+    margin-right: 40px;
+}
+.main-blog__item{
+    flex-basis: 520px;
+    display: flex;
+    gap: 0 20px;
+    
+}
+.main-blog__item-title{
+font-size: 24px;
+font-family: "Cormorant", serif;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+}
+.main-blog__item-author{
+font-size: 13px;
+}
+.main-blog__item-link{
+font-size: 13px;
+margin-top: auto;
+position: relative;
+}
+.main-blog__item-content{
+    display: flex;
+    flex-direction: column;
+}
+.main-blog__item-link::after{
+    content: '';
+    background-image: url(../images/mini.svg);
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    margin-left: 8px;
+    bottom: 3px;
+}
+.main-blog__link{
+    padding: 12px 41px;
+    display: flex;
+    justify-content: center;
+    margin: 72px auto;
+    border: 1px solid #151618;
+    width: 155px;
+}
 
+.mailing-list__title{
+    text-align: left;
+    margin-bottom: 50px; 
+    padding-top: 20px; 
+    margin-top: 0;  
+}
+
+.mailing-list__inner{
+    display: flex;
+    gap: 60px 40px;
+}
+.mailing-list{
+    background-color: #F7F2EA;
+    margin-bottom: 100px;
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+.mailing-list__text{
+    margin: 0;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.checkbox__text{
+    margin: 0;
+}
+
+.mailing-list__form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mailing-list__email{
+border: none;
+border-bottom: 1px solid #B8B58B;
+background-color: transparent;
+padding: 3px 15px;
+width: 440px;
+margin-right: 25px;
+font-style: normal;
+font-weight: 300;
+line-height: 1.5;
+color: #151618;
+}
+
+.mailing-list__email::placeholder{
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 1.5;
+color: #B8B58B;
+padding-top: 10px;
+}
+.mailing-list__btn{
+padding:12px 41px ;
+background-color: #fff;
+border: 1px solid #151618;
+font-size: 20px;
+}
 
 
 
