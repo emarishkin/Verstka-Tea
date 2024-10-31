@@ -171,7 +171,9 @@ font-weight: 400;
     text-align: center;
     display: flex;
     gap: 0 20px;
-    margin-right: 40px;
+    margin: 0;
+    padding: 0 ;
+    justify-content: center;
 }
 
 .assortment__name{
@@ -193,12 +195,12 @@ font-family: "Cormorant", serif;
 
 .reviews{
     background-color: #F7F2EA;
-    padding-bottom: 60px 0;
 }
 .reviews__list{
     display: flex;
     gap: 0 30px;
-    margin-right: 40px;
+    margin: 0;
+    padding: 0;
     justify-content: center;
 }
 .reviews__item{
@@ -221,11 +223,12 @@ font-weight: 600;
 .main-blog__list{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px 58px;
-    margin-right: 40px;
+    gap: 40px 18px;
+    padding: 0 ;
+    justify-content: center;
 }
 .main-blog__item{
-    flex-basis: 520px;
+    flex-basis: 500px;
     display: flex;
     gap: 0 20px;
     
@@ -283,6 +286,7 @@ position: relative;
     margin-bottom: 100px;
    padding-top: 60px;
    padding-bottom: 60px;
+   margin-bottom: 0;
 }
 .mailing-list__text{
     margin: 0;
@@ -365,6 +369,33 @@ margin-top: 5px;
 }
 
 
+.prioritise{
+    padding: 100px 0;
+}
+
+.prioritise__list{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 29px 22px;
+    margin: 0;
+    padding: 0;
+}
+.prioritise__title{
+font-size: 30px;
+margin-bottom: 10px;
+font-weight: 300;
+}
+.prioritise__text{
+margin-bottom: 30px;
+font-weight: 600;
+}
+
+
+
+
+
 
 
 
@@ -402,6 +433,44 @@ margin-top: 5px;
     
     .reviews__item:last-child{
        display: none;
+    }
+    .main__blog{
+        padding: 80px 0;
+    }
+    .main-blog__item img{
+    max-width: 190px;
+    }
+    .main-blog__item {
+        flex-basis: 380px;
+    }
+    .main-blog__list {   
+        gap: 30px 18px;
+    }
+    .main-blog__item-title {
+        font-size: 17px;
+    }
+    .main-blog__link {
+        margin-top: 60px;
+    }
+    .mailing-list__inner {
+        flex-wrap: wrap;
+        padding: 0 60px;
+        justify-content: center;
+    }
+    .mailing-list{
+        padding: 60px 0;
+    }
+    .mailing-list__title {
+        text-align: center;
+    }
+    .mailing-list__text {
+        text-align: center;
+    }
+    .prioritise__list {
+        gap: 29px 82px;
+    }
+    .mailing-list__form {
+        padding: 0 85px;
     }
 }
 @media(max-width:868px){
