@@ -55,6 +55,9 @@ ul{
     padding: 30px 0;
 }
 
+ul{
+    padding: 0;
+}
 
 /* .reviews__item--hide{
     display: none;
@@ -392,6 +395,134 @@ margin-bottom: 30px;
 font-weight: 600;
 }
 
+
+.footer{
+ background-color: #F7F2EA;
+ padding: 75px 25px;
+ padding-bottom: 0;
+}
+
+.footer__all{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    justify-content: center;
+    gap: 0 100px;
+}
+
+.products__list{
+    max-width: 100px; 
+    height: 269px;   
+    margin: 0;
+    font-weight: 100;
+}
+.products__title{
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.products__items{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.Company_list{
+    max-width: 155px;   
+    height: 353px;
+    margin: 0;
+    font-weight: 100;
+}
+.Company__title{
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.Company_items{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.footer__solve{
+    max-width: 269px;
+    height: 162px;
+    font-size: 10px; 
+    padding-top: 50px;
+    margin-right: -55px;  
+    font-weight: 100;
+    font-family: "Cormorant", serif;
+}
+.footer__big-text{
+    font-size: 15px;
+}
+.footer_mini-text{
+    font-size: 10px;
+    height: 32px;
+    width: 129px;
+}
+
+.Stay_In_Touch{
+    max-width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.title_Stay_In_Touch{
+    margin-top: 0;
+}
+
+.info__brat{
+    display: flex;
+    justify-content: center;
+    gap: 0 30px;
+    width: 270px;
+    margin-bottom: 50px;
+}
+.info__brat__list{
+    width: 136px;
+    font-size: 13px;
+    height: 60px;
+}
+.info__brat__items{
+flex-wrap: nowrap;
+}
+.img_stay_in{
+    width: 57px;
+    height: 91px;
+}
+.stay_in{
+    font-weight: 100;
+    font-family: "Cormorant", serif;
+    font-size: 15px;
+    margin-top: 0;
+}
+.Stay_In_Touch__logos{
+    width: 270px;
+    margin-left: 107px;
+    margin-top: 4px;
+}
+.logops__list{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 22px;
+    align-items: center;
+}
+.footer__footer__footer{
+    width: 425px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-right: 566px;
+    font-size: 17px;
+    font-weight: 100;
+}
+.footer__img-list{
+    display: flex;
+}
+.footer__img-list{
+    gap: 0 15px;
+}
 
 
 
